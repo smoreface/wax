@@ -13,7 +13,7 @@
 
 
 __Wax is an extensible workflow for producing scholarly exhibitions with minimal computing principles.__<br>
-It's comprised of: __a few Ruby gems__ for processing image data and associated metadata ([wax_tasks](https://github.com/minicomp/wax_tasks/), [wax_iiif](https://github.com/minicomp/wax_iiif/)), __a Jekyll theme__ ([wax_theme](https://github.com/minicomp/wax/)), and (hopefully soon!) a lot of __documentation and recipes__ for creating, deploying, and maintaining digital exhibitions.
+It's comprised of: __a few Ruby gems__ for processing image data and associated metadata ([wax_tasks](https://github.com/minicomp/wax_tasks/), [wax_iiif](https://github.com/minicomp/wax_iiif/)), __a Jekyll theme__ ([wax_theme](https://github.com/minicomp/wax/)), and (hopefully soon!) a lot of __documentation and recipes__ for creating, deploying, and maintaining digital exhibitions. For now, additional documentation is in the [Minicomp/Wax Wiki](https://minicomp.github.io/wiki/wax/).
 
 
 - [Prerequisites](#Prerequisites)
@@ -68,39 +68,39 @@ __There are a few ways to get started with Wax, depending on your needs.__ Copyi
 
 1. Log into your [GitHub account](https://github.com/). (Or sign up if you don't have one!)
 
-2. Head to the [Wax demo page](https://github.com/) and click **"Use this Template"** button. It will prompt you to create a copy of the repository in your own account. You should name it after the collection or exhibition you'll make, since this name will inform your free URL for the project with GitHub. For this example, our repository is called **"my-wax-site"**.
+2. Head to the [Wax demo page](https://github.com/minicomp/wax) and click **"Use this template"** button. You will be prompted to create a copy of the repository in your own account. The name you choose will inform your free URL (repository) for the project with GitHub, so name it after the collection or exhibition you'll make. In this example, the repository is called **"my-wax-site"**.
 
-3. On your own, new Wax repository page, click the Green **"Code"** button and copy the URL it provides to your clipboard, e.g,
+3. On your new Wax repository page, click the Green **"Code"** button and copy the URL it provides to your clipboard, e.g,
   ```sh
-  git@github.com:mnyrop/my-wax-site.git
+  git@github.com:username/my-wax-site.git
   ```
 
-4. Open your Terminal/Shell application and change directory into where you'd like to work on your project, e.g., your Desktop:
+4. Open your Terminal/Shell application and change directory into where you want to work on your project, e.g., your Desktop:
   ```sh
   cd ~/Desktop
   ```
 
 5. Run the `git clone` command plus the link you copied on your clipboard in one line, e.g.,
   ```sh
-  git clone git@github.com:mnyrop/my-wax-site.git
+  git clone git@github.com:username/my-wax-site.git
   ```
 
-6. When the clone is complete, change directory into your newly cloned project folder, in our case:
+6. When the clone is complete, change directory into your newly cloned project folder, in this case:
   ```sh
   cd my-wax-site
   ```
 
-7. Install the project-specific Ruby dependencies by running the command
+7. Install the project-specific Ruby dependencies by running the command:
   ```sh
   bundle install
   ```
 
-8. Run the demo site:
+8. Run the demo site by running the command:
   ```sh
   bundle exec jekyll serve
   ```
 
-After the last step, the terminal will provide you with a localhost URL for you to see your local copy of the site on your browser. This is the template site you will make changes to in order to make your own exhibition. For more, check out the [Minicomp/Wax Wiki](https://minicomp.github.io/wiki/wax/).
+After the last step, the terminal provides you with a localhost URL for you to see a local copy of the site on your web browser. This is the template site you will make changes to in order to make your own exhibition. For more details, check out the [Minicomp/Wax Wiki](https://minicomp.github.io/wiki/wax/).
 
 
 # Using Docker
